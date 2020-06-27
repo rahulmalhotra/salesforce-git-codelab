@@ -1,0 +1,9 @@
+<apex:page showHeader="false">
+    <apex:includeLightning />
+    <div id="sfdcstopteam" />
+    <script>
+        $Lightning.use("c:sfdcstopTeamApp", function() {
+            $Lightning.createComponent("c:sfdcstopTeam",{}, "sfdcstopteam", function(params) {});
+        });
+    </script>
+</apex:page>

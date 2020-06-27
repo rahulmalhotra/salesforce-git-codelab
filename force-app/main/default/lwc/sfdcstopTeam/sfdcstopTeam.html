@@ -1,0 +1,32 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="standard:groups" size="medium"></lightning-icon>
+            &nbsp;&nbsp;SFDC Stop Contributors
+        </h3>
+        <p class="slds-p-horizontal_small">
+            <lightning-layout multiple-rows="true">
+                <template for:each={contributors} for:item="contributor">
+                    <lightning-layout-item size="12" small-device-size="12" medium-device-size="4" large-device-size="2" key={contributor.key}>
+                        <article class="slds-card slds-card_boundary contributorCard">
+                            <lightning-layout multiple-rows="true">
+                                <lightning-layout-item size="12">
+                                    <img src={contributor.picURL} style="border-radius: 50%;" />
+                                </lightning-layout-item>
+                                <lightning-layout-item size="12" class="slds-m-vertical_small">
+                                    <div class="slds-text-heading_small">{contributor.name}</div>
+                                </lightning-layout-item>
+                                <lightning-layout-item size="12">
+                                    <div class="slds-text-heading_small">Contributed on {contributor.contributionDate}</div>
+                                </lightning-layout-item>
+                                <lightning-layout-item size="12" class="slds-m-top_small">
+                                    <lightning-button label="Trailhead Profile" variant="brand" onclick={openTrailheadProfile} name={contributor.trailheadURL}></lightning-button>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </article>
+                    </lightning-layout-item>
+                </template>
+            </lightning-layout>
+        </p>
+    </lightning-card>
+</template>

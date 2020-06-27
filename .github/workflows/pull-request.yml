@@ -1,0 +1,22 @@
+name: Org Deployment CI
+
+on:
+  pull_request:
+    branches: [ master ]
+    types: [ closed ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Decrypting Server Key
+      shell: bash
+      run: openssl enc -nosalt -aes-256-cbc -d -in certificates/server.key.enc -out certificates/server.key -base64 -K ${{ secrets.RAHUL_FORCE_DECRYPTION_KEY }} -iv ${{ secrets.RAHUL_FORCE_DECRYPTION_IV }}
+    - name: Authorizing Org
+      uses: forcedotcom/salesforcedx-actions@master
+      with:
+          args: force:auth:jwt:grant --clientid ${{ secrets.RAHUL_FORCE_CONSUMER_KEY }} --jwtkeyfile certificates/server.key --username ${{ secrets.RAHUL_FORCE_USER_NAME }} --setdefaultusername
+    - name: Deploying Metadata
+      uses: forcedotcom/salesforcedx-actions@master
+      with:
+          args: force:source:deploy --manifest manifest/package.xml
