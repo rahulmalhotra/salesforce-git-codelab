@@ -46,6 +46,14 @@ public class SFDCStopTeamController {
                 'https://www.sfdcstop.com'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Third Contributor',
+                'https://avatars3.githubusercontent.com/u/16497903?s=460&u=b8b3f8d4a31ddf577372aabb77516850c69e81e0&v=4',
+                Date.newInstance(2020, 06, 28),
+                'https://www.trailhead.com'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
