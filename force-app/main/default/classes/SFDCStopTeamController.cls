@@ -46,6 +46,14 @@ public class SFDCStopTeamController {
                 'https://www.sfdcstop.com'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'SFDC Stop',
+                'https://2.bp.blogspot.com/-u9bdMS__oqs/W1Sz3B23wuI/AAAAAAAAAqg/w4t1bp7pZNYjCFyJo_cQxQME8kccUMdgACK4BGAYYCw/s1600/logosquare.jpg',
+                Date.newInstance(2020, 06, 28),
+                'https://www.salesforce.com'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
