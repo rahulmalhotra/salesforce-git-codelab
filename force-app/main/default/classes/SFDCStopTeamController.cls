@@ -38,30 +38,6 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/rahulmalhotra'
             )
         );
-        sfdcstopContributors.add(
-            new Contributor(
-                'Rahul SFDC Stop',
-                'https://avatars0.githubusercontent.com/u/26483135?s=460&v=4',
-                Date.newInstance(2020, 06, 28),
-                'https://www.sfdcstop.com'
-            )
-        );
-        sfdcstopContributors.add(
-            new Contributor(
-                'SFDC Stop',
-                'https://2.bp.blogspot.com/-u9bdMS__oqs/W1Sz3B23wuI/AAAAAAAAAqg/w4t1bp7pZNYjCFyJo_cQxQME8kccUMdgACK4BGAYYCw/s1600/logosquare.jpg',
-                Date.newInstance(2020, 06, 28),
-                'https://www.salesforce.com'
-            )
-        );
-        sfdcstopContributors.add(
-            new Contributor(
-                'Third Contributor',
-                'https://avatars3.githubusercontent.com/u/16497903?s=460&u=b8b3f8d4a31ddf577372aabb77516850c69e81e0&v=4',
-                Date.newInstance(2020, 06, 28),
-                'https://www.trailhead.com'
-            )
-        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
