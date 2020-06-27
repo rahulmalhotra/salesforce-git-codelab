@@ -1,9 +1,8 @@
 name: Org Deployment CI
 
 on:
-  pull_request:
+  push:
     branches: [ master ]
-    types: [ closed ]
 jobs:
   build:
     runs-on: ubuntu-latest
