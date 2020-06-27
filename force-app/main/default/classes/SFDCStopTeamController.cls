@@ -49,9 +49,9 @@ public class SFDCStopTeamController {
         sfdcstopContributors.add(
             new Contributor(
                 'Rahul SFDC',
-                'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
+                'https://avatars0.githubusercontent.com/u/26483135?s=460&v=4',
                 Date.newInstance(2020, 06, 27),
-                'https://trailblazer.me/id/rahulmalhotra'
+                'https://www.salesforce.com'
             )
         );
         return JSON.serialize(sfdcstopContributors);
