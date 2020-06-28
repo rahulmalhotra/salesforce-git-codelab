@@ -1,58 +1,123 @@
-# Salesforce App
+# Salesforce Git Codelab [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20Salesforce%20Git%20Codelab%20by%20SFDCStop.%20It%20covers%20some%20of%20the%20most%20important%20concepts%20of%20git%20that%20you%20can%20Learn%20By%20Coding&url=https://github.com/rahulmalhotra/salesforce-git-codelab&via=rahulcoder&hashtags=salesforce,sfdx,git,github,codelab)
 
-This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
+This repository consist of all the code used in **Salesforce Git Codelab by SFDC Stop** premiered on YouTube on **28th June 2020 7:00 P.M. IST**.
 
-## Part 1: Choosing a Development Model
+View the [YouTube Premiere](https://www.youtube.com/watch?v=xX6Bp-jprZI) to complete the codelab or follow the below steps.
 
-There are two types of developer processes or models supported in Salesforce Extensions for VS Code and Salesforce CLI. These models are explained below. Each model offers pros and cons and is fully supported.
+After you've completed the Codelab you can see your name on the [SFDC Stop Contributors Page](https://rahulm-developer-edition.ap5.force.com/sfdcstop/)
 
-### Package Development Model
+### Prerequisites
 
-The package development model allows you to create self-contained applications or libraries that are deployed to your org as a single package. These packages are typically developed against source-tracked orgs called scratch orgs. This development model is geared toward a more modern type of software development process that uses org source tracking, source control, and continuous integration and deployment.
+You need a GitHub account and the below softwares setup in your system before starting the Codelab.
 
-If you are starting a new project, we recommend that you consider the package development model. To start developing with this model in Visual Studio Code, see [Package Development Model with VS Code](https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide/package-development-model). For details about the model, see the [Package Development Model](https://trailhead.salesforce.com/en/content/learn/modules/sfdx_dev_model) Trailhead module.
+* [SFDX CLI](https://developer.salesforce.com/tools/sfdxcli)
 
-If you are developing against scratch orgs, use the command `SFDX: Create Project` (VS Code) or `sfdx force:project:create` (Salesforce CLI)  to create your project. If you used another command, you might want to start over with that command.
+* [Git](https://git-scm.com/downloads)
 
-When working with source-tracked orgs, use the commands `SFDX: Push Source to Org` (VS Code) or `sfdx force:source:push` (Salesforce CLI) and `SFDX: Pull Source from Org` (VS Code) or `sfdx force:source:pull` (Salesforce CLI). Do not use the `Retrieve` and `Deploy` commands with scratch orgs.
+* [VSCode](https://code.visualstudio.com/download)
 
-### Org Development Model
+* [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode) - You can directly install it within VSCode
 
-The org development model allows you to connect directly to a non-source-tracked org (sandbox, Developer Edition (DE) org, Trailhead Playground, or even a production org) to retrieve and deploy code directly. This model is similar to the type of development you have done in the past using tools such as Force.com IDE or MavensMate.
+## Instructions
 
-To start developing with this model in Visual Studio Code, see [Org Development Model with VS Code](https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide/org-development-model). For details about the model, see the [Org Development Model](https://trailhead.salesforce.com/content/learn/modules/org-development-model) Trailhead module.
+* Fork this repository
 
-If you are developing against non-source-tracked orgs, use the command `SFDX: Create Project with Manifest` (VS Code) or `sfdx force:project:create --manifest` (Salesforce CLI) to create your project. If you used another command, you might want to start over with this command to create a Salesforce DX project.
+* Clone it to your PC
 
-When working with non-source-tracked orgs, use the commands `SFDX: Deploy Source to Org` (VS Code) or `sfdx force:source:deploy` (Salesforce CLI) and `SFDX: Retrieve Source from Org` (VS Code) or `sfdx force:source:retrieve` (Salesforce CLI). The `Push` and `Pull` commands work only on orgs with source tracking (scratch orgs).
+  ```
+  git clone https://github.com/<your github username>/salesforce-git-codelab.git
+  ```
+* Create a branch by ```<your-name>``` appended by dev
 
-## The `sfdx-project.json` File
+  ```
+  git checkout -b rahuldev
+  ```
+* Update the ```SFDCStopTeamController.cls``` Apex Class and add another entry in SFDC Stop Contributors List by copying and pasting the lines 33 - 40 with your own values i.e. your name, picture url, date of contribution and trailhead profile link as shown below:-
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+  ```
+  sfdcstopContributors.add(
+    new Contributor(
+      'Your Name',
+      'https://your-photo-url.jpg',
+      Date.newInstance(2020, 06, 28),
+      'https://trailblazer.me/id/your-trailhead-username'
+    )
+  );
+  ```
 
-The most important parts of this file for getting started are the `sfdcLoginUrl` and `packageDirectories` properties.
+* Stage your changes
 
-The `sfdcLoginUrl` specifies the default login URL to use when authorizing an org.
+  ```
+  git add .
+  ```
 
-The `packageDirectories` filepath tells VS Code and Salesforce CLI where the metadata files for your project are stored. You need at least one package directory set in your file. The default setting is shown below. If you set the value of the `packageDirectories` property called `path` to `force-app`, by default your metadata goes in the `force-app` directory. If you want to change that directory to something like `src`, simply change the `path` value and make sure the directory you’re pointing to exists.
+* Commit your changes. Add a commit message in this format:- "Added ```<your name>``` to SFDC Stop Contributors"
 
-```json
-"packageDirectories" : [
-    {
-      "path": "force-app",
-      "default": true
-    }
-]
-```
+  ```
+  git commit -m "Added Rahul Malhotra to SFDC Stop Contributors"
+  ```
+* Push the changes to your branch in forked repository
 
-## Part 2: Working with Source
+  ```
+  git push origin rahuldev
+  ```
+* Create a Pull Request
 
-For details about developing against scratch orgs, see the [Package Development Model](https://trailhead.salesforce.com/en/content/learn/modules/sfdx_dev_model) module on Trailhead or [Package Development Model with VS Code](https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide/package-development-model).
+* In case you face a merge conflict, Resolve the Merge Conflict by following the below steps:-
 
-For details about developing against orgs that don’t have source tracking, see the [Org Development Model](https://trailhead.salesforce.com/content/learn/modules/org-development-model) module on Trailhead or [Org Development Model with VS Code](https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide/org-development-model).
+  - Store the original repo URL
 
-## Part 3: Deploying to Production
+    ```
+    git remote add upstream https://github.com/rahulmalhotra/salesforce-git-codelab.git
+    ```
 
-Don’t deploy your code to production directly from Visual Studio Code. The deploy and retrieve commands do not support transactional operations, which means that a deployment can fail in a partial state. Also, the deploy and retrieve commands don’t run the tests needed for production deployments. The push and pull commands are disabled for orgs that don’t have source tracking, including production orgs.
+  - Switch to master branch
 
-Deploy your changes to production using [packaging](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm) or by [converting your source](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_source.htm#cli_reference_convert) into metadata format and using the [metadata deploy command](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_mdapi.htm#cli_reference_deploy).
+    ```
+    git checkout master
+    ```
+
+  - Fetch master branch from original repository
+
+    ```
+    git fetch upstream master
+    ```
+
+  - Merge upstream master with local master branch
+
+    ```
+    git merge upstream/master
+    ```
+
+  - Merge master branch into your dev branch
+
+    ```
+    git checkout rahuldev
+    git merge master --no-ff
+    ```
+
+  - After this you'll be able to see the merge conflict that you can resolve manually by carefully keeping both changes.
+
+  - Stage the changes
+
+    ```
+    git add .
+    ```
+
+  - Commit the changes
+
+    ```
+    git commit -m "Resolved merge conflict"
+    ```
+
+  - PR will be updated automatically and I'll merge your PR into the master branch
+
+Once your PR is merged successfully, you can see your name on the [SFDC Stop Contributors Page](https://rahulm-developer-edition.ap5.force.com/sfdcstop/)
+
+**Congratulations..!!** You've just made a contribution and welcome to the world of Open Source :-)
+
+As a bonus point, you can also update this README by adding your name to the list of contributors below..!!
+
+## Contributors
+
+* **Rahul Malhotra** - [@rahulcoder](https://twitter.com/rahulcoder)
