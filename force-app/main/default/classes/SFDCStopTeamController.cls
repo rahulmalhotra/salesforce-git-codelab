@@ -38,6 +38,15 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/rahulmalhotra'
             )
         );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Aby Varghese',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2020, 07, 04),
+                'https://trailblazer.me/id/avarghese1'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
