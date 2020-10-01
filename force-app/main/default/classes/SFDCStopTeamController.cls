@@ -56,6 +56,15 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me'
             )
         );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Pritam Dalvi',
+                'https://avatars3.githubusercontent.com/u/31932824?s=460&u=2507f0eb0f3960f71cdbdd8fde9567e8eae98e3c&v=4',
+                Date.newInstance(2020, 10, 01),
+                'https://trailblazer.me/id/pdalvi'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
