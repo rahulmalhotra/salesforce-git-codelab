@@ -65,6 +65,15 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/pdalvi'
             )
         );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Bharath Kumar',
+                'https://purepng.com/public/uploads/large/purepng.com-mario-balloonmariosuper-mariovideo-gamefictional-characternintendoshigeru-miyamotomario-franchise-1701528637457ptodo.png',
+                Date.newInstance(2020, 10, 01),
+                'https://trailblazer.me/id/bkumar21'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
