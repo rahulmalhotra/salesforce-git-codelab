@@ -107,7 +107,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/akohale'
             )
         );
-
+          sfdcstopContributors.add(git checkout -b
+            new Contributor(
+                'Sandeep Nanda',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2020, 11, 28),
+                'https://trailblazer.me/id/snanda79'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
