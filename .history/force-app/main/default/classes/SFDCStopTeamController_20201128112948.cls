@@ -65,14 +65,6 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/pdalvi'
             )
         );
-        sfdcstopContributors.add(
-            new Contributor(
-                'Soumitra',
-                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
-                Date.newInstance(2020, 11, 28),
-                'https://trailblazer.me'
-            )
-        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
