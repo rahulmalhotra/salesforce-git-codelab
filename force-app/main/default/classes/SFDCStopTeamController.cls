@@ -72,6 +72,16 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/pdalvi'
             )
         );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Mukesh K',
+                'https://avatars0.githubusercontent.com/u/69043673?s=460&v=4',
+                Date.newInstance(2020, 11, 28),
+                'https://trailblazer.me/id/mukeshkandasamy'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
