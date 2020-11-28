@@ -83,6 +83,15 @@ public class SFDCStopTeamController {
 
         sfdcstopContributors.add(
             new Contributor(
+                'Bharath Kumar',
+                'https://purepng.com/public/uploads/large/purepng.com-mario-balloonmariosuper-mariovideo-gamefictional-characternintendoshigeru-miyamotomario-franchise-1701528637457ptodo.png',
+                Date.newInstance(2020, 10, 01),
+                'https://trailblazer.me/id/bkumar21'
+            )
+        );
+        
+        sfdcstopContributors.add(
+            new Contributor(
                 'Mukesh K',
                 'https://avatars0.githubusercontent.com/u/69043673?s=460&v=4',
                 Date.newInstance(2020, 11, 28),
