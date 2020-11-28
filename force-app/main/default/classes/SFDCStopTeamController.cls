@@ -82,6 +82,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Aniket Kohale',
+                'https://avatars2.githubusercontent.com/u/75152263?s=460&v=4',
+                Date.newInstance(2020, 11, 28),
+                'https://trailblazer.me/id/akohale'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
