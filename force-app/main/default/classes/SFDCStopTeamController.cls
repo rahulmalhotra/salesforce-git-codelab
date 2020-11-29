@@ -108,6 +108,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Govinda Gaikwad',
+                'https://avatars1.githubusercontent.com/u/41573933?s=400&v=4',
+                Date.newInstance(2020, 11, 29),
+                'https://trailblazer.me/id/ggaikwad'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
