@@ -66,7 +66,6 @@ public class SFDCStopTeamController {
             )
         );
         sfdcstopContributors.add(
-
             new Contributor(
                 'Sunil Pal ',
                 'https://avatars2.githubusercontent.com/u/8309600?s=460&u=0baed38683ef81edbf620674096c05fc80042888&v=4',
