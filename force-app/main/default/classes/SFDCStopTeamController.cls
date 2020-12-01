@@ -65,6 +65,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/pdalvi'
             )
         );
-        return JSON.serialize(sfdcstopContributors);
+        sfdcstopContributors.add(
+            new Contributor(
+                'Sunil Kumar Pal',
+                'https://avatars2.githubusercontent.com/u/8309600?s=460&u=0baed38683ef81edbf620674096c05fc80042888&v=4',
+                Date.newInstance(2020, 12, 01),
+                'https://trailblazer.me/id/sunilpal'
+            )
+        );
+        return JSON.serialize(sfdcstopContributors); 
     }
 }
