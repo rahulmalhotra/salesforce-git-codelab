@@ -121,3 +121,15 @@ As a bonus point, you can also update this README by adding your name to the lis
 ## Contributors
 
 * **Rahul Malhotra** - [@rahulcoder](https://twitter.com/rahulcoder)
+
+---
+
+```c++
+
+if(isAwesome(salesforceGitCodelab)) {
+  salesforceGitCodelab.star(); // Thanks in Advance :P
+}
+
+```
+
+---
