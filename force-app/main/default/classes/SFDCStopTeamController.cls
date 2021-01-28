@@ -117,6 +117,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Dayan Naskar',
+                'https://avatars.githubusercontent.com/u/51526119?s=400&u=3f6b658b1fedd8c7eb87b2de65b811f6b3d9d289&v=4',
+                Date.newInstance(2021, 1, 27),
+                'https://trailblazer.me/id/dnaskar'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
