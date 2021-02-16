@@ -65,6 +65,68 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
+                'Vyankatesh',
+                'https://avatars0.githubusercontent.com/u/70753142?s=400&u=a7cdfb9e493542950346a9beba5315b2c1be1a0b&v=4',
+                Date.newInstance(2020, 08, 27),
+                'https://trailblazer.me/id/vchoulwar'
+            )
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Pritam Dalvi',
+                'https://avatars3.githubusercontent.com/u/31932824?s=460&u=2507f0eb0f3960f71cdbdd8fde9567e8eae98e3c&v=4',
+                Date.newInstance(2020, 10, 01),
+                'https://trailblazer.me/id/pdalvi'
+            )
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Bharath Kumar',
+                'https://purepng.com/public/uploads/large/purepng.com-mario-balloonmariosuper-mariovideo-gamefictional-characternintendoshigeru-miyamotomario-franchise-1701528637457ptodo.png',
+                Date.newInstance(2020, 10, 01),
+                'https://trailblazer.me/id/bkumar21'
+            )
+        );
+        
+        sfdcstopContributors.add(
+            new Contributor(
+                'Mukesh K',
+                'https://avatars0.githubusercontent.com/u/69043673?s=460&v=4',
+                Date.newInstance(2020, 11, 28),
+                'https://trailblazer.me/id/mukeshkandasamy'
+            )
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Aniket Kohale',
+                'https://avatars2.githubusercontent.com/u/75152263?s=460&v=4',
+                Date.newInstance(2020, 11, 28),
+                'https://trailblazer.me/id/akohale'
+            )
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Govinda Gaikwad',
+                'https://avatars1.githubusercontent.com/u/41573933?s=400&v=4',
+                Date.newInstance(2020, 11, 29),
+                'https://trailblazer.me/id/ggaikwad'
+            )
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Dayan Naskar',
+                'https://avatars.githubusercontent.com/u/51526119?s=400&u=3f6b658b1fedd8c7eb87b2de65b811f6b3d9d289&v=4',
+                Date.newInstance(2021, 1, 27),
+                'https://trailblazer.me/id/dnaskar'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
                 'Mohammad Rafi',
                 'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
                 Date.newInstance(2021, 02, 16),
