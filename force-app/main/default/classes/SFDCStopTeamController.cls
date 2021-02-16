@@ -63,6 +63,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Mohammad Rafi',
+                'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
+                Date.newInstance(2021, 02, 16),
+                'https://trailblazer.me/id/mrafi2'
+            )
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
