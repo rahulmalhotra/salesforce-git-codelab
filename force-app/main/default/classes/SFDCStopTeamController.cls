@@ -128,7 +128,7 @@ public class SFDCStopTeamController {
         sfdcstopContributors.add(
             new Contributor(
                 'Mohammad Rafi',
-                'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
+                'https://scontent.fagr1-2.fna.fbcdn.net/v/t1.0-9/87265224_1446384472192656_514357681276846080_o.jpg?_nc_cat=106&ccb=3&_nc_sid=09cbfe&_nc_ohc=RMLmkRB8At8AX-TXZBQ&_nc_oc=AQmzr8jDmR3690_VWufl6-5Vc01fw0iAuy2DCt478BZgjtnM2NRKm56QLO8Vb398SsHPifG4AmGb-6-3v-oF92sm&_nc_ht=scontent.fagr1-2.fna&oh=e46eaf50c964ae44dea6411f0ceebea7&oe=60549B20',
                 Date.newInstance(2021, 02, 16),
                 'https://trailblazer.me/id/mrafi2'
             )
