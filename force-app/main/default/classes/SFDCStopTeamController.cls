@@ -133,6 +133,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/mrafi2'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Thank You Rahul',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 03, 05),
+                'https://trailblazer.me/id/sadhyatmabhattar'
+            )
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
