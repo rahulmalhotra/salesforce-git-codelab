@@ -65,6 +65,14 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
+                'Aravinth Hari',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2020, 04, 04),
+                'https://trailblazer.me'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
                 'Vyankatesh',
                 'https://avatars0.githubusercontent.com/u/70753142?s=400&u=a7cdfb9e493542950346a9beba5315b2c1be1a0b&v=4',
                 Date.newInstance(2020, 08, 27),
