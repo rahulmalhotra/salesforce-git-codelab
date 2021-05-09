@@ -54,7 +54,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/avarghese1'
             )
         );
-
+        sfdcstopContributors.add(
+            new Contributor(
+                'Nimish SFDC',
+                'https://avatars.githubusercontent.com/u/44755990?v=4',
+                Date.newInstance(2021, 05, 08),
+                'https://trailblazer.me/id/nimishsingh'
+            )
+        );
         sfdcstopContributors.add(
             new Contributor(
                 'Satish VSRS',
