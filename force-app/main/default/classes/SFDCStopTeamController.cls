@@ -9,7 +9,7 @@
 public class SFDCStopTeamController {
 
     public class Contributor {
-
+        //comment
         public String name;
         public String picURL;
         public Date contributionDate;
