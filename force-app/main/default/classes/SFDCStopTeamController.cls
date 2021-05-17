@@ -9,7 +9,7 @@
 public class SFDCStopTeamController {
 
     public class Contributor {
-
+        //comment
         public String name;
         public String picURL;
         public Date contributionDate;
@@ -178,6 +178,14 @@ public class SFDCStopTeamController {
                 'https://avatars.githubusercontent.com/u/36979765?v=4',
                 Date.newInstance(2021, 05, 12),
                 'https://trailblazer.me/id/dagoye'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Devi',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 05, 16),
+                'https://trailblazer.me/id?_ga=2.47347495.1295565841.1621180677-1660277678.1540738427'
             )
         );
 
