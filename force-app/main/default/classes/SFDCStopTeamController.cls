@@ -189,6 +189,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Ravi',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 05, 22),
+                'https://www.p.force.com'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
