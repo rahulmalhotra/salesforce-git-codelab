@@ -1,8 +1,8 @@
 /*
-*	Author:- Rahul Malhotra
-*	Description:- This is the controller class for SFDC Stop Team Component
-*	Created:- 21-06-2020
-*	Last Updated:- 21-06-2020
+*   Author:- Rahul Malhotra
+*   Description:- This is the controller class for SFDC Stop Team Component
+*   Created:- 21-06-2020
+*   Last Updated:- 21-06-2020
 *   Change Log:-
 *   SNo.        Name        Date        Description
 */
@@ -24,8 +24,8 @@ public class SFDCStopTeamController {
     }
 
     /*
-    *	Author:- Rahul Malhotra
-    *	Description:- This method is used to return contributors data
+    *   Author:- Rahul Malhotra
+    *   Description:- This method is used to return contributors data
     */
     @AuraEnabled(cacheable=true)
     public static String getContributors() {
@@ -36,6 +36,14 @@ public class SFDCStopTeamController {
                 'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
                 Date.newInstance(2020, 06, 21),
                 'https://trailblazer.me/id/rahulmalhotra'
+            )
+        );
+                sfdcstopContributors.add(
+            new Contributor(
+                'SS Demo',
+                'https://salesforceprofs.com/wp-content/uploads/2020/06/salesforce_dx_logo_200x200.png',
+                Date.newInstance(2021, 05, 24),
+                'https://trailblazer.me'
             )
         );
         sfdcstopContributors.add(
