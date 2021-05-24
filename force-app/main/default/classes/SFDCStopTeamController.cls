@@ -40,6 +40,14 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
+                'Raj SFDCStop',
+                'https://www.qualityclouds.com/wp-content/uploads/2020/06/ServiceNow-Customization-Guide-1.png',
+                 Date.newInstance(2021, 05, 19),
+                'https://trailblazer.me'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
                 'Soni Singh',
                 'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
                 Date.newInstance(2020, 11, 28),
