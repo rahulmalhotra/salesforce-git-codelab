@@ -206,6 +206,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Lee Campbell',
+                'https://avatars.githubusercontent.com/u/84777318?s=400&v=4',
+                Date.newInstance(2021, 06, 02),
+                'https://trailblazer.me/id/lcampbell48'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
