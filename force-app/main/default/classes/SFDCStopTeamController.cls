@@ -46,6 +46,17 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me'
             )
         );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Nikhil Muppidi',
+                'https://avatars.githubusercontent.com/u/61767883?v=4',
+                Date.newInstance(2021, 06, 15),
+                'https://trailblazer.me/id/nikhilmuppidi'
+            )
+        );
+
+        
         sfdcstopContributors.add(
             new Contributor(
                 'Soni Singh',
@@ -215,6 +226,7 @@ public class SFDCStopTeamController {
             )
         );
 
+        
         return JSON.serialize(sfdcstopContributors);
     }
 }
