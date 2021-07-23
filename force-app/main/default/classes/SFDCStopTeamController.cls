@@ -243,6 +243,15 @@ public class SFDCStopTeamController {
                 )
                 
         );
+        sfdcstopContributors.add(
+                new Contributor(
+                    'Umakanth Mettu',
+                    'https://avatars.githubusercontent.com/umakanthmettu',
+                    Date.newInstance(2021, 7, 22),
+                    'https://trailblazer.me/id/umettu1'
+                )
+                
+        );
         
         return JSON.serialize(sfdcstopContributors);
     }
