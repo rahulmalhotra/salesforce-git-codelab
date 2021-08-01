@@ -56,7 +56,7 @@ public class SFDCStopTeamController {
             )
         );
 
-        
+
         sfdcstopContributors.add(
             new Contributor(
                 'Soni Singh',
@@ -241,7 +241,7 @@ public class SFDCStopTeamController {
                     Date.newInstance(2021, 7, 15),
                     'https://trailblazer.me/id/radapa'
                 )
-                
+
         );
         sfdcstopContributors.add(
                 new Contributor(
@@ -250,9 +250,18 @@ public class SFDCStopTeamController {
                     Date.newInstance(2021, 7, 22),
                     'https://trailblazer.me/id/umettu1'
                 )
-                
+
         );
-        
+        sfdcstopContributors.add(
+            new Contributor(
+                'Priyanka Kumar',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 7, 31),
+                'https://www.p.force.com'
+            )
+
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
