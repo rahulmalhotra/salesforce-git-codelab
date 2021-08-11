@@ -259,6 +259,16 @@ public class SFDCStopTeamController {
                 Date.newInstance(2021, 7, 31),
                 'https://www.p.force.com'
             )
+        );
+
+            sfdcstopContributors.add(
+            new Contributor(
+                'Shiva Guddeti',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 8, 11),
+                'https://trailblazer.me/id/guddetishiva'
+            )
+
 
         );
 
