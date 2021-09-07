@@ -289,7 +289,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/vardhans'
             )
         );
-
+        sfdcstopContributors.add(
+            new Contributor(
+                'Vardhan-33',
+                'https://avatars1.githubusercontent.com/u/41573933?s=400&v=4',
+                Date.newInstance(2021, 09, 07),
+                'https://trailblazer.me/id/vardhans'
+            )
+        );
 
 
         return JSON.serialize(sfdcstopContributors);
