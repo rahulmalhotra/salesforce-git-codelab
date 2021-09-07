@@ -12,10 +12,10 @@ jobs:
       shell: bash
       run: openssl enc -nosalt -aes-256-cbc -d -in certificates/server.key.enc -out certificates/server.key -base64 -K ${{ secrets.RAHUL_FORCE_DECRYPTION_KEY }} -iv ${{ secrets.RAHUL_FORCE_DECRYPTION_IV }}
     - name: Authorizing Org
-      uses: forcedotcom/salesforcedx-actions@master
+      uses: rahulmalhotra/salesforcedx-actions@master
       with:
           args: force:auth:jwt:grant --clientid ${{ secrets.RAHUL_FORCE_CONSUMER_KEY }} --jwtkeyfile certificates/server.key --username ${{ secrets.RAHUL_FORCE_USER_NAME }} --setdefaultusername
     - name: Deploying Metadata
-      uses: forcedotcom/salesforcedx-actions@master
+      uses: rahulmalhotra/salesforcedx-actions@master
       with:
           args: force:source:deploy --manifest manifest/package.xml
