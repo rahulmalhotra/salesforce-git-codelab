@@ -290,6 +290,14 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'TEST User 1',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 09, 25),
+                'https://www.google.com'
+            )
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
