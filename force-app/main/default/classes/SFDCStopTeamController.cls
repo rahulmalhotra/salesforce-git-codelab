@@ -308,6 +308,25 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'TEST User 3',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 09, 25),
+                'https://www.google.co.ma'
+            )
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'TEST User 4',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2021, 09, 25),
+                'https://www.google.fr'
+            )
+        );
+
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
