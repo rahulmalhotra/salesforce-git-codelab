@@ -307,6 +307,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Joker',
+                ' https://images.unsplash.com/photo-1620510625142-b45cbb784397?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8am9rZXIlMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+                Date.newInstance(2021, 12, 15),
+                'https://www.wydad.com'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
