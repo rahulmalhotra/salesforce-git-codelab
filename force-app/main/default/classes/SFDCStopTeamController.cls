@@ -314,6 +314,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id?lang=en_US'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Bhagwan Singh',
+                'https://avatars.githubusercontent.com/u/99656667?v=4',
+                Date.newInstance(2022, 03, 01),
+                'https://trailblazer.me/id/bchuphal'
+            )
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
