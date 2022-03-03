@@ -323,6 +323,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Alvin Bernard',
+                'https://cdn.cnn.com/cnnnext/dam/assets/211227135008-02-the-batman-trailer-exlarge-169.jpg',
+                Date.newInstance(2022, 03, 03),
+                'https://trailblazer.me/id/abernard1'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
