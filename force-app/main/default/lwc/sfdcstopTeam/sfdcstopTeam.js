@@ -5,6 +5,7 @@ export default class SfdcstopTeam extends LightningElement {
 
     contributors = [];
 
+    //This is wire as function implementation
     @wire(getContributors)
     contributorResponse({ error, data }) {
         if(data) {
