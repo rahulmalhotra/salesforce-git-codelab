@@ -40,6 +40,19 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
+                'Rahul Malhotra',
+                'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
+                Date.newInstance(2020, 06, 21),
+                'https://trailblazer.me/id/rahulmalhotra'
+            )
+        );
+
+
+
+
+
+        sfdcstopContributors.add(
+            new Contributor(
                 'Hasan Shamsi',
                 'https://trailblazer-identity.my.salesforce.com/ncsphoto/7qGDgFdz6eXBvUgJiCq7eTnlBofZj-eSy2IjNh4-RWWhmd9H_dSyWxs3sUgAvtGEJTpzuM3HDqHywChKBZBcTw%3D%3D',
                 Date.newInstance(2022, 02, 10),
