@@ -40,20 +40,17 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
-                'Midhun Thomas',
-                'https://avatars.githubusercontent.com/u/82592532?s=96&v=4',
-                Date.newInstance(2022, 06, 23),
+                'Rahul Malhotra',
+                'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
+                Date.newInstance(2020, 06, 21),
                 'https://trailblazer.me/id/rahulmalhotra'
             )
         );
-        sfdcstopContributors.add(
-            new Contributor(
-                'Midhun Thomas',
-                'https://avatars.githubusercontent.com/u/82592532?s=96&v=4',
-                Date.newInstance(2022, 06, 23),
-                'https://trailblazer.me/id/rahulmalhotra'
-            )
-        );
+
+
+
+
+
         sfdcstopContributors.add(
             new Contributor(
                 'Hasan Shamsi',
