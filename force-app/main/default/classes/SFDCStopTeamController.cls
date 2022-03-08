@@ -325,7 +325,7 @@ public class SFDCStopTeamController {
         sfdcstopContributors.add(
             new Contributor(
                 'Cool Sandy',
-                'https://www.dreamstime.com/stock-photo-rainbow-love-heart-background-red-wood-image60045149',
+                'https://www.pexels.com/photo/macro-shot-of-a-peacock-s-feather-4994517/',
                 Date.newInstance(2022, 03, 07),
                 'https://trailblazer.me/id/sandd'
             )
