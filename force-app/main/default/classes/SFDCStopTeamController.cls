@@ -322,6 +322,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/bchuphal'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Cool Sandy',
+                'https://www.dreamstime.com/stock-photo-rainbow-love-heart-background-red-wood-image60045149',
+                Date.newInstance(2022, 03, 07),
+                'https://trailblazer.me/id/sandd'
+            )
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
