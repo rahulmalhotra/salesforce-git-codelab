@@ -316,10 +316,18 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
-                'Bhagwan Singh',
+                'Balram Babu',
                 'https://avatars.githubusercontent.com/u/99656667?v=4',
-                Date.newInstance(2022, 03, 01),
+                Date.newInstance(2022, 03, 04),
                 'https://trailblazer.me/id/bchuphal'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Cool Sandy',
+                'https://media.istockphoto.com/photos/humpback-whale-playfully-swimming-in-clear-blue-ocean-picture-id1301667498?s=612x612',
+                Date.newInstance(2022, 03, 07),
+                'https://trailblazer.me/id/sandd'
             )
         );
 
