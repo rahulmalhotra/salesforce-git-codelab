@@ -316,7 +316,7 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
-                'Bhagwan Singh',
+                'Bhagvan Singh',
                 'https://avatars.githubusercontent.com/u/99656667?v=4',
                 Date.newInstance(2022, 03, 01),
                 'https://trailblazer.me/id/bchuphal'
