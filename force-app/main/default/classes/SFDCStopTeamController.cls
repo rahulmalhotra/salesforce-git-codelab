@@ -325,7 +325,7 @@ public class SFDCStopTeamController {
         sfdcstopContributors.add(
             new Contributor(
                 'Cool Sandy',
-                'https://www.pexels.com/photo/macro-shot-of-a-peacock-s-feather-4994517/',
+                'https://media.istockphoto.com/photos/humpback-whale-playfully-swimming-in-clear-blue-ocean-picture-id1301667498?s=612x612',
                 Date.newInstance(2022, 03, 07),
                 'https://trailblazer.me/id/sandd'
             )
