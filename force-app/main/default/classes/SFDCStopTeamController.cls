@@ -32,6 +32,14 @@ public class SFDCStopTeamController {
         List<Contributor> sfdcstopContributors = new List<Contributor>();
         sfdcstopContributors.add(
             new Contributor(
+                'Aniket kushwaha',
+                'https://avatars.githubusercontent.com/u/51708237?s=400&v=4',
+                Date.newInstance(2022, 01, 11),
+                'https://trailblazer.me/id/aniketkushwaha1127'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
                 'Rahul Malhotra',
                 'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
                 Date.newInstance(2020, 06, 21),
