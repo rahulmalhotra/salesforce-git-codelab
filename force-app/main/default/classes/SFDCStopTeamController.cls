@@ -1,8 +1,8 @@
 /*
-*	Author:- Rahul Malhotra
-*	Description:- This is the controller class for SFDC Stop Team Component
-*	Created:- 21-06-2020
-*	Last Updated:- 21-06-2020
+*   Author:- Rahul Malhotra
+*   Description:- This is the controller class for SFDC Stop Team Component
+*   Created:- 21-06-2020
+*   Last Updated:- 21-06-2020
 *   Change Log:-
 *   SNo.        Name        Date        Description
 */
@@ -24,8 +24,8 @@ public class SFDCStopTeamController {
     }
 
     /*
-    *	Author:- Rahul Malhotra
-    *	Description:- This method is used to return contributors data
+    *   Author:- Rahul Malhotra
+    *   Description:- This method is used to return contributors data
     */
     @AuraEnabled(cacheable=true)
     public static String getContributors() {
@@ -320,6 +320,15 @@ public class SFDCStopTeamController {
                 'https://avatars.githubusercontent.com/u/99656667?v=4',
                 Date.newInstance(2022, 03, 01),
                 'https://trailblazer.me/id/bchuphal'
+            )
+        );
+        
+        sfdcstopContributors.add(
+            new Contributor(
+                'Test SFDC P',
+                'https://avatars.githubusercontent.com/u/99656667?v=4',
+                Date.newInstance(2022, 03, 30),
+                'https://trailblazer.me/id?lang=en_US'
             )
         );
 
