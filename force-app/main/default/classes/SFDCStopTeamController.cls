@@ -30,6 +30,16 @@ public class SFDCStopTeamController {
     @AuraEnabled(cacheable=true)
     public static String getContributors() {
         List<Contributor> sfdcstopContributors = new List<Contributor>();
+        
+        sfdcstopContributors.add(
+            new Contributor(
+                'Avisek Mallick',
+                'https://avatars.githubusercontent.com/u/44801447?s=400&u=9696229a0300aed1d87cd725a46d881e8dad87e1&v=4',
+                 Date.newInstance(2022,04,12),
+                'https://trailblazer.me/id/amallick10'
+            )
+        );
+        
         sfdcstopContributors.add(
             new Contributor(
                 'Rahul Malhotra',
