@@ -330,7 +330,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/bchuphal'
             )
         );
-
+        sfdcstopContributors.add(
+            new Contributor(
+                'Aviral Gupta',
+                'https://avatars.githubusercontent.com/u/71070058?s=400&v=4',
+                Date.newInstance(2022, 5, 14),
+                'https://trailblazer.me/id/agupta784'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
