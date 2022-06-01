@@ -341,6 +341,15 @@ public class SFDCStopTeamController {
             )
             
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Abhishek',
+                'https://avatars.githubusercontent.com/u/54585173?s=400&u=e4a93e88a7ae36f228d473bff106b7b1883156fc&v=4',
+                Date.newInstance(2022, 06, 01),
+                'https://trailblazer.me/id/abhishekunnithan'
+            )
+            
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
