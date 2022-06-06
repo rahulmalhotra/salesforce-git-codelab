@@ -340,7 +340,7 @@ public class SFDCStopTeamController {
                 Date.newInstance(2022, 05, 25),
                 'https://trailblazer.me/id/nadeem321'
             )
-            
+          
         );
 
         sfdcstopContributors.add(
