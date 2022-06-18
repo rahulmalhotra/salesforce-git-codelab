@@ -341,6 +341,15 @@ public class SFDCStopTeamController {
             )
             
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Connor Crozier',
+                'https://avatars.githubusercontent.com/u/73910868?v=4',
+                Date.newInstance(2022, 05, 25),
+                'https://trailblazer.me/id/ccrozier'
+            )
+            
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
