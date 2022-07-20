@@ -358,6 +358,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Lightning Beginner',
+                'https://avatars.githubusercontent.com/u/104251972?s=96&v=4',
+                Date.newInstance(2022, 07, 20),
+                'https://trailblazer.me/id/mnmathapati'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
