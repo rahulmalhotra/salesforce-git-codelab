@@ -46,6 +46,7 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/'
             )
         );
+        
         sfdcstopContributors.add(
             new Contributor(
                 'Hasan Shamsi',
@@ -345,6 +346,16 @@ public class SFDCStopTeamController {
                 'https://avatars.githubusercontent.com/u/43183059?v=4',
                 Date.newInstance(2022, 05, 25),
                 'https://trailblazer.me/id/nadeem321'
+            )
+          
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Gayathri Vinodh',
+                'https://avatars.githubusercontent.com/u/88796028?s=400&v=4',
+                 Date.newInstance(2022, 06, 06),
+                'https://www.google.com'
             )
             
         );
