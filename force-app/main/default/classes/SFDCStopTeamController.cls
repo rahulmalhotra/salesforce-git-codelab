@@ -39,6 +39,14 @@ public class SFDCStopTeamController {
             )
             );
             sfdcstopContributors.add(
+                new Contributor(
+                    'SFDC Lightning',
+                    'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
+                    Date.newInstance(2020, 06, 21),
+                    'https://trailblazer.me/id/rahulmalhotra'
+                )
+                );
+            sfdcstopContributors.add(
             new Contributor(
                 'Workshop-CodeLab',
                 'https://github.com/',
