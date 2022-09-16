@@ -50,10 +50,18 @@ public class SFDCStopTeamController {
                 new Contributor(
                     'Git Learning',
                     'https://picsum.photos/200/300 or https://picsum.photos/200',
-                    Date.newInstance(2020, 06, 21),
+                    Date.newInstance(2020, 09, 16),
                     'https://trailblazer.me/'
                 )
                 );
+                sfdcstopContributors.add(
+                    new Contributor(
+                        'Thank you !@!',
+                        'https://picsum.photos/200/300',
+                        Date.newInstance(2020, 09, 16),
+                        'https://trailblazer.me/'
+                    )
+                    );
             sfdcstopContributors.add(
             new Contributor(
                 'Workshop-CodeLab',
