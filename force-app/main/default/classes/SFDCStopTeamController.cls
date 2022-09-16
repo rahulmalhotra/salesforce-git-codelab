@@ -46,11 +46,19 @@ public class SFDCStopTeamController {
                     'https://trailblazer.me/id/rahulmalhotra'
                 )
                 );
+                sfdcstopContributors.add(
+                new Contributor(
+                    'Git Learning',
+                    'https://picsum.photos/200/300 or https://picsum.photos/200',
+                    Date.newInstance(2020, 06, 21),
+                    'https://trailblazer.me/'
+                )
+                );
             sfdcstopContributors.add(
             new Contributor(
                 'Workshop-CodeLab',
                 'https://github.com/',
-                Date.newInstance(2022, 06, 20),
+                Date.newInstance(2022, 09, 16),
                 'https://trailblazer.me/'
             )
         );
