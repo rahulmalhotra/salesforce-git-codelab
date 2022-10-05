@@ -30,6 +30,16 @@ public class SFDCStopTeamController {
     @AuraEnabled(cacheable=true)
     public static String getContributors() {
         List<Contributor> sfdcstopContributors = new List<Contributor>();
+         // Rajasekhar changes
+        sfdcstopContributors.add(
+            new Contributor(
+                'Rajasekhara Reddy',
+                'https://avatars.githubusercontent.com/u/112305010?v=4',
+                Date.newInstance(2022, 09, 29),
+                'https://www.sfdcstop.com/p/salesforce-lwc-tutorial-series-todo-app.html'
+            )
+            );       
+ 
         sfdcstopContributors.add(
             new Contributor(
                 'Rahul Malhotra',
