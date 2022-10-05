@@ -38,7 +38,16 @@ public class SFDCStopTeamController {
                 Date.newInstance(2022, 09, 29),
                 'https://www.sfdcstop.com/p/salesforce-lwc-tutorial-series-todo-app.html'
             )
-            );       
+            );
+            
+            sfdcstopContributors.add(
+            new Contributor(
+                'sravani reddy',
+                'https://avatars.githubusercontent.com/u/112305010?v=4',
+                Date.newInstance(2022, 09, 29),
+                'https://www.sfdcstop.com/p/salesforce-lwc-tutorial-series-todo-app.html'
+            )
+            );  
  
         sfdcstopContributors.add(
             new Contributor(
