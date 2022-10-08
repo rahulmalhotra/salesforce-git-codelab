@@ -1,0 +1,14 @@
+<template>
+    <div style="width: 600px;">
+     <lightning-card title={title}>
+     <p class="slds-p-around_medium">
+        <template if:true={showdetails}>
+            {personDetails}
+        </template>
+      
+     </p>
+     <lightning-button slot="actions" label={lightningButtonAction} onclick={toggledetails}></lightning-button>
+     </lightning-card>
+    </div>
+    
+</template>
