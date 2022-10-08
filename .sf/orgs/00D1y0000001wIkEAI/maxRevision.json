@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "serverMaxRevisionCounter": 32,
+=======
+  "serverMaxRevisionCounter": 16,
+>>>>>>> master
   "sourceMembers": {
     "Profile__Admin": {
       "serverRevisionCounter": 1,
