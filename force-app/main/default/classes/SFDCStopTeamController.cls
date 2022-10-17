@@ -232,6 +232,14 @@ public class SFDCStopTeamController {
                 'https://www.p.force.com'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'pravin',
+                'https://avatars3.githubusercontent.com/u/66021548?s=400&v=4',
+                Date.newInstance(2022, 10, 18),
+                'https://www.p.force.com'
+            )
+        );
 
         sfdcstopContributors.add(
             new Contributor(
