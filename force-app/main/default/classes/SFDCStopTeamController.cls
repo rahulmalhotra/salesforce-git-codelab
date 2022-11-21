@@ -48,6 +48,14 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
+                'Krishnakanth Pamu',
+                'https://yt3.ggpht.com/ytc/AMLnZu8-_0aGJ_xjCmTje2lQk8Tq6fWAmUcT9cINi0KToQ=s900-c-k-c0x00ffffff-no-rj',
+                Date.newInstance(2022, 11, 19),
+                'https://trailblazer.me/id/krpamu'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
                 'Hasan Shamsi',
                 'https://trailblazer-identity.my.salesforce.com/ncsphoto/7qGDgFdz6eXBvUgJiCq7eTnlBofZj-eSy2IjNh4-RWWhmd9H_dSyWxs3sUgAvtGEJTpzuM3HDqHywChKBZBcTw%3D%3D',
                 Date.newInstance(2022, 02, 10),
