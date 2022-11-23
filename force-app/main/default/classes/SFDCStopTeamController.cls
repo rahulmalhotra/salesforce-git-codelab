@@ -375,6 +375,15 @@ public class SFDCStopTeamController {
             )
             
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'BibiKhuteja Pattewale',
+                'https://avatars.githubusercontent.com/u/99656667?v=4',
+                Date.newInstance(2022, 11, 23),
+                'https://trailblazer.me/id/khadijapattewale'
+            )
+            
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
