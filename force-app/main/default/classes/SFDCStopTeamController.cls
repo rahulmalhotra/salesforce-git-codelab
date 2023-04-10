@@ -394,6 +394,17 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Kishore Dharmani',
+                'https://avatars.githubusercontent.com/u/130301932?s=400&v=4',
+                Date.newInstance(2023, 04, 10),
+                'https://trailblazer.me/id/krd4tblazer'
+            )
+            
+        );
+
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
