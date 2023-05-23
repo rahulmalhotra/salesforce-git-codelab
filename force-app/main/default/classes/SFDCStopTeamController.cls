@@ -34,7 +34,7 @@ public class SFDCStopTeamController {
             new Contributor(
                 'Ikhlas  Shaikh',
                 'https://pbs.twimg.com/profile_images/1208356452160589824/qLtb5g9P_400x400.jpg',
-                Date.newInstance(2023, 05 21),
+                Date.newInstance(2023, 05 ,21),
                 'https://trailblazer.me/id/ikhas shaikh'
             )
             );
