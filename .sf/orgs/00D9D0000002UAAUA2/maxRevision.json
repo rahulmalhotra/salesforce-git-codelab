@@ -1,0 +1,101 @@
+{
+  "serverMaxRevisionCounter": 16,
+  "sourceMembers": {
+    "Profile__Admin": {
+      "serverRevisionCounter": 1,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "ApexClass__SFDCStopTeamController": {
+      "serverRevisionCounter": 2,
+      "lastRetrievedFromServer": 2,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexPage__sfdcstop": {
+      "serverRevisionCounter": 16,
+      "lastRetrievedFromServer": 16,
+      "memberType": "ApexPage",
+      "isNameObsolete": false
+    },
+    "AuraDefinitionBundle__sfdcstopTeamApp": {
+      "serverRevisionCounter": 8,
+      "lastRetrievedFromServer": 8,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__sfdcstopTeamApp/sfdcstopTeamApp.app": {
+      "serverRevisionCounter": 9,
+      "lastRetrievedFromServer": 9,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__sfdcstopTeamApp/sfdcstopTeamAppController.js": {
+      "serverRevisionCounter": 10,
+      "lastRetrievedFromServer": 10,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__sfdcstopTeamApp/sfdcstopTeamAppHelper.js": {
+      "serverRevisionCounter": 11,
+      "lastRetrievedFromServer": 11,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__sfdcstopTeamApp/sfdcstopTeamApp.css": {
+      "serverRevisionCounter": 12,
+      "lastRetrievedFromServer": 12,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__sfdcstopTeamApp/sfdcstopTeamApp.auradoc": {
+      "serverRevisionCounter": 13,
+      "lastRetrievedFromServer": 13,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__sfdcstopTeamApp/sfdcstopTeamAppRenderer.js": {
+      "serverRevisionCounter": 14,
+      "lastRetrievedFromServer": 14,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__sfdcstopTeamApp/sfdcstopTeamApp.svg": {
+      "serverRevisionCounter": 15,
+      "lastRetrievedFromServer": 15,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__sfdcstopTeam": {
+      "serverRevisionCounter": 3,
+      "lastRetrievedFromServer": 3,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__sfdcstopTeam/sfdcstopTeam.js-meta.xml": {
+      "serverRevisionCounter": 4,
+      "lastRetrievedFromServer": 4,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__sfdcstopTeam/sfdcstopTeam.js": {
+      "serverRevisionCounter": 5,
+      "lastRetrievedFromServer": 5,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__sfdcstopTeam/sfdcstopTeam.css": {
+      "serverRevisionCounter": 6,
+      "lastRetrievedFromServer": 6,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__sfdcstopTeam/sfdcstopTeam.html": {
+      "serverRevisionCounter": 7,
+      "lastRetrievedFromServer": 7,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    }
+  }
+}
