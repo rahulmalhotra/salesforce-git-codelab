@@ -394,6 +394,26 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Test Demo',
+                'https://avatars.githubusercontent.com/u/95059172?s=400&u=d50b74e4711a8437963d16927bc116f88b52ec91&v=4',
+                Date.newInstance(2023, 07, 04),
+                'https://trailblazer.me/id/erkincakir'
+            )
+            
+        );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Test Demo',
+                'https://avatars.githubusercontent.com/u/95059172?s=400&u=d50b74e4711a8437963d16927bc116f88b52ec91&v=4',
+                Date.newInstance(2023, 07, 04),
+                'https://trailblazer.me/id/erkincakir'
+            )
+            
+        );
+
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
