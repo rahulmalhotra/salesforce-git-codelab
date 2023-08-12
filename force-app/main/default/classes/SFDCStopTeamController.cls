@@ -48,6 +48,14 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
+                'Jitendra Singh',
+                'https://avatars.githubusercontent.com/u/83809596?v=4',
+                Date.newInstance(2023, 06, 30),
+                'https://github.com/jitendra-singh-developer'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
                 'Rama',
                 'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
                 Date.newInstance(2023, 07, 29),
@@ -413,6 +421,7 @@ public class SFDCStopTeamController {
         );
 
         sfdcstopContributors.add(
+            new Contributor(
                 'Logesh M',
                 'https://avatars.githubusercontent.com/u/61358687?v=4',
                 Date.newInstance(2023, 08, 12),
