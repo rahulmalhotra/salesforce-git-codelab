@@ -394,6 +394,15 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Logesh M',
+                'https://avatars.githubusercontent.com/u/61358687?v=4',
+                Date.newInstance(2023, 08, 12),
+                'https://www.salesforce.com/trailblazer/logeshm'
+            )
+            
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
