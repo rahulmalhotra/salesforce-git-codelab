@@ -53,7 +53,14 @@ public class SFDCStopTeamController {
                 Date.newInstance(2023, 06, 30),
                 'https://github.com/jitendra-singh-developer'
             )
-            
+        );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Rama',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2023, 07, 29),
+                'https://login.salesforce.com'
+            )
         );
         sfdcstopContributors.add(
             new Contributor(
@@ -399,6 +406,26 @@ public class SFDCStopTeamController {
                 'https://avatars.githubusercontent.com/u/95059172?s=400&u=d50b74e4711a8437963d16927bc116f88b52ec91&v=4',
                 Date.newInstance(2022, 11, 29),
                 'https://trailblazer.me/id/erkincakir'
+            )
+            
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Kishore Dharmani',
+                'https://avatars.githubusercontent.com/u/130301932?s=400&v=4',
+                Date.newInstance(2023, 04, 10),
+                'https://trailblazer.me/id/krd4tblazer'
+            )
+            
+        );
+
+        sfdcstopContributors.add(
+            new Contributor(
+                'Logesh M',
+                'https://avatars.githubusercontent.com/u/61358687?v=4',
+                Date.newInstance(2023, 08, 12),
+                'https://www.salesforce.com/trailblazer/logeshm'
             )
             
         );
