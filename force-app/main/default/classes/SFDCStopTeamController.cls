@@ -48,6 +48,14 @@ public class SFDCStopTeamController {
         );
         sfdcstopContributors.add(
             new Contributor(
+                'Rama',
+                'https://avatars3.githubusercontent.com/u/66051548?s=400&v=4',
+                Date.newInstance(2023, 07, 29),
+                'https://login.salesforce.com'
+            )
+        );
+        sfdcstopContributors.add(
+            new Contributor(
                 'Krishnakanth Pamu',
                 'https://yt3.ggpht.com/ytc/AMLnZu8-_0aGJ_xjCmTje2lQk8Tq6fWAmUcT9cINi0KToQ=s900-c-k-c0x00ffffff-no-rj',
                 Date.newInstance(2022, 11, 19),
@@ -404,6 +412,14 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+                'Logesh M',
+                'https://avatars.githubusercontent.com/u/61358687?v=4',
+                Date.newInstance(2023, 08, 12),
+                'https://www.salesforce.com/trailblazer/logeshm'
+            )
+            
+        );
 
         return JSON.serialize(sfdcstopContributors);
     }
