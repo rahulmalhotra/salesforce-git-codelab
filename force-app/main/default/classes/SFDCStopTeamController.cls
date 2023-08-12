@@ -404,6 +404,15 @@ public class SFDCStopTeamController {
 
         sfdcstopContributors.add(
             new Contributor(
+                'Kishore Dharmani',
+                'https://avatars.githubusercontent.com/u/130301932?s=400&v=4',
+                Date.newInstance(2023, 04, 10),
+                'https://trailblazer.me/id/krd4tblazer'
+            )
+            
+        );
+
+        sfdcstopContributors.add(
                 'Logesh M',
                 'https://avatars.githubusercontent.com/u/61358687?v=4',
                 Date.newInstance(2023, 08, 12),
@@ -411,6 +420,7 @@ public class SFDCStopTeamController {
             )
             
         );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
