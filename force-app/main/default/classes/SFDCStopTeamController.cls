@@ -430,6 +430,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Veena',
+                'https://avatars.githubusercontent.com/u/130301932?s=400&v=4',
+                Date.newInstance(2023, 08, 19),
+                'https://www.salesforce.com/trailblazer/vgollapalli1'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
