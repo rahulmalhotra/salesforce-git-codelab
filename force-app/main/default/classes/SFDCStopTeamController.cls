@@ -430,6 +430,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Bharath Inti',
+                'https://avatars.githubusercontent.com/u/34135208?v=4',
+                Date.newInstance(2023, 09, 08),
+                'https://www.salesforce.com/trailblazer/binti'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
