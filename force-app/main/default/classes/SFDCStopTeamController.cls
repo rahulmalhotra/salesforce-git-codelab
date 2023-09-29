@@ -40,7 +40,7 @@ public class SFDCStopTeamController {
             );
             sfdcstopContributors.add(
             new Contributor(
-                'Abhi-CodeLab',
+                'Abhipg-CodeLab',
                 'https://github.com/',
                 Date.newInstance(2022, 06, 20),
                 'https://trailblazer.me/'
