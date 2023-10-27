@@ -430,6 +430,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Abhishek Tiwari',
+                'https://avatars.githubusercontent.com/u/136071349?v=4',
+                Date.newInstance(2023, 10, 27),
+                'https://www.salesforce.com/trailblazer/atiwari686'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
