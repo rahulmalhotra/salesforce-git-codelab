@@ -427,8 +427,16 @@ public class SFDCStopTeamController {
                 Date.newInstance(2023, 08, 12),
                 'https://www.salesforce.com/trailblazer/logeshm'
             )
-            
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'venuGoud',
+                'https://avatars.githubusercontent.com/u/119279583?v=4',
+                Date.newInstance(2023, 08, 12),
+                'https://trailhead.salesforce.com/today/new_user'
+            )
+        );
+           
 
         return JSON.serialize(sfdcstopContributors);
     }
