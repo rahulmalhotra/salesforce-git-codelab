@@ -430,6 +430,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Shreeraj Nikamh',
+                'https://trailblazerid.force.com/profilephoto/7298W000002KGRz/F',
+                Date.newInstance(2024, 02, 29),
+                'https://www.salesforce.com/trailblazer/shreerajnikamh'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
